@@ -25,6 +25,22 @@ http://localhost:8080/s3bucket/add/aws-mine-bucket
 Bucket created with name:aws-mine-bucket
 ERR Unable to create bucket :The AWS Access Key Id you provided does not exist in our records. (Service: Amazon S3; Status Code: 403; Error Code: InvalidAccessKeyId; Request ID: VVDZESB284X0Q5GG; S3 Extended Request ID: xxxx=; Proxy: null)
 
+![img.png](img/img.png)
+
+### SQS Simple Queue Service
+
+1) Publish -> tell URL (sqs.url)
+2) Consume -> tell QueueName
+3) Microservice
+
+When No IAM user roles for the logged in user
+![img.png](img/img_3.png)
+Giving permissions
+![img_1.png](img/img_1.png)
+![img_2.png](img/img_2.png)
+
+@SqsListener -> made by Spring so dependency used is *spring-cloud-starter-aws-messaging*
+
 
 
 
