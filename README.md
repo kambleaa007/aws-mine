@@ -44,3 +44,17 @@ Giving permissions
 
 
 
+### SNS Simple Notification Service
+
+e.g. NewsLetter 
+
+1) Topic -> create topic -> publish msg
+2) Subscription -> Protocol [HTTP, Email, SMS, SQS, Lambda etc...]
+3) 
+
+Topic names can be multiple can be same can be same in another aws user account
+So Topic ARN ->  
+
+![img.png](img_4.png)
+![img_1.png](img_5.png)
+
