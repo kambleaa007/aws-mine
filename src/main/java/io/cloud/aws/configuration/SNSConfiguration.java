@@ -11,6 +11,16 @@ import com.amazonaws.regions.Regions;
 import com.amazonaws.services.sns.AmazonSNS;
 import com.amazonaws.services.sns.AmazonSNSClientBuilder;
 
+
+// write java class SNSConfiguration to configure the AWS SNS client.
+// The class should have the following properties:
+// accessKey, secretKey.
+// The class should have a credentials() method that returns an AWSCredentials object.
+// The class should have a amazonSNS() method that returns an AmazonSNS object.
+// The class should be annotated with @Configuration.
+// The class should be registered in the Spring application context.
+
+
 @Configuration
 public class SNSConfiguration {
 

@@ -1,14 +1,22 @@
 package io.cloud.aws.configuration;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+// write java class AWSS3Config to configure the AWS S3 client.
+// The class should have the following properties:
+// accessKey, secretKey, region.
+// The class should have a credentials() method that returns an AWSCredentials object.
+// The class should have a amazonS3() method that returns an AmazonS3 object.
+// The class should be annotated with @Configuration.
+// The class should be registered in the Spring application context.
+
 
 @Configuration
 public class AWSS3Config {

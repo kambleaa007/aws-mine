@@ -22,6 +22,9 @@ import org.springframework.messaging.handler.invocation.HandlerMethodArgumentRes
 import java.util.ArrayList;
 import java.util.List;
 
+
+// write java class AWSSQSConfig to configure the AWS SQS client.
+
 @Configuration
 public class AWSSQSConfig {
 
